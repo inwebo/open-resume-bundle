@@ -1,0 +1,41 @@
+{
+  "name": "inwebo/open-resume-bundle",
+  "type": "symfony-bundle",
+  "version": "1.0.0",
+  "require": {
+    "doctrine/doctrine-bundle": "^3.0|^2.0",
+    "php": "^8.2",
+    "inwebo/open-resume-model": "^1.0",
+    "doctrine/orm": "^3.5",
+    "symfony/validator": "^7.3"
+  },
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "^3.89",
+    "phpstan/phpstan": "^2.1"
+  },
+  "license": "GPL-3.0-or-later",
+  "autoload": {
+    "psr-4": {
+      "Inwebo\\OpenResumeBundle\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "inwebo",
+      "email": "github@inwebo.net"
+    }
+  ],
+  "extra": {
+    "symfony": {
+      "endpoint": [
+        "https://api.github.com/repos/inwebo/symfony-recipes/contents/index.json",
+        "flex://defaults"
+      ]
+    }
+  },
+  "minimum-stability": "stable",
+  "scripts": {
+    "php-cs-fixer": "vendor/bin/php-cs-fixer fix src --allow-risky=yes",
+    "php-stan": "vendor/bin/phpstan analyse -c phpstan.neon"
+  }
+}
