@@ -930,12 +930,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/inwebo/open-resume-model.git",
-                "reference": "d80c2c19963ca379742b4bf15ca18debda91465d"
+                "reference": "7fe92dba91ef629e0aebd5899c99f6b2b3e554c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/inwebo/open-resume-model/zipball/d80c2c19963ca379742b4bf15ca18debda91465d",
-                "reference": "d80c2c19963ca379742b4bf15ca18debda91465d",
+                "url": "https://api.github.com/repos/inwebo/open-resume-model/zipball/7fe92dba91ef629e0aebd5899c99f6b2b3e554c3",
+                "reference": "7fe92dba91ef629e0aebd5899c99f6b2b3e554c3",
                 "shasum": ""
             },
             "require": {
@@ -970,9 +970,9 @@
             ],
             "support": {
                 "issues": "https://github.com/inwebo/open-resume-model/issues",
-                "source": "https://github.com/inwebo/open-resume-model/tree/1.0"
+                "source": "https://github.com/inwebo/open-resume-model/tree/1.0.0"
             },
-            "time": "2025-11-20T14:18:47+00:00"
+            "time": "2026-01-26T16:23:06+00:00"
         },
         {
             "name": "psr/cache",
