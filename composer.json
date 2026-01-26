@@ -7,7 +7,7 @@
     "php": "^8.2",
     "inwebo/open-resume-model": "^1.0",
     "doctrine/orm": "^3.5",
-    "symfony/validator": "^7.3"
+    "symfony/validator": "*"
   },
   "require-dev": {
     "friendsofphp/php-cs-fixer": "^3.89",
@@ -29,5 +29,11 @@
   "scripts": {
     "php-cs-fixer": "vendor/bin/php-cs-fixer fix src --allow-risky=yes",
     "php-stan": "vendor/bin/phpstan analyse -c phpstan.neon"
+  },
+  "extra": {
+    "symfony": {
+      "allow-contrib": false,
+      "require": "8.*"
+    }
   }
 }
